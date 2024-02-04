@@ -1,0 +1,17 @@
+com\mycompany\ventas\distribuidas\dao\ProductoDao.class
+com\mycompany\ventas\distribuidas\dao\ClienteDao.class
+com\mycompany\ventas\distribuidas\controlador\ClienteControlador.class
+com\mycompany\ventas\distribuidas\rmi\ProductoRmi.class
+com\mycompany\ventas\distribuidas\utils\ConexionBDD.class
+com\mycompany\ventas\distribuidas\controlador\VentaControlador.class
+com\mycompany\ventas\distribuidas\dto\ClienteDto.class
+com\mycompany\ventas\distribuidas\dao\VentaDao.class
+com\mycompany\ventas\distribuidas\dto\ProductoDto.class
+com\mycompany\ventas\distribuidas\rmi\ClienteRmi.class
+com\mycompany\ventas\distribuidas\rmi\VentaRmi.class
+com\mycompany\ventas\distribuidas\TestCliente.class
+com\mycompany\ventas\distribuidas\remote\VentaRemote.class
+com\mycompany\ventas\distribuidas\dto\VentaDto.class
+com\mycompany\ventas\distribuidas\controlador\ProductoControlador.class
+com\mycompany\ventas\distribuidas\remote\ClienteRemote.class
+com\mycompany\ventas\distribuidas\remote\ProductoRemote.class
