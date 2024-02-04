@@ -39,6 +39,21 @@ public class VentaDao {
         return (Double) total;        
     }
     
+     public Double getTotalVentasPorCliente(String id_cliente) {
+        //Obtener todas las ventas registradas
+        String ventas = getVentas();
+        
+        //Declarar los parámetros a utilizar
+        List<Object> parametros = new ArrayList<>();
+        parametros.add(ventas);
+        parametros.add(id_cliente);
+        
+        //Ejecutar el procedimiento simple que retorna   la suma
+        Object total = rpc.ejecutarProcSimp("sum_json_cliente", parametros);
+        return (Double) total;        
+    }
+    
+    
     public String getVentas() {
         String comando = String.format("Select * from func_listar_venta()");
         DefaultTableModel tabla = conexion.returnRecord(comando);

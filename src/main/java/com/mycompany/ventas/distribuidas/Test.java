@@ -13,7 +13,7 @@ import com.mycompany.ventas.distribuidas.dao.VentaDao;
 public class Test {
     public static void main(String [] args){
         VentaDao venta = new VentaDao();
-        Double totalVenta = venta.getTotalVentas();
+        Double totalVenta = venta.getTotalVentasPorCliente("123456789");
         System.out.println(totalVenta);
     }
 }

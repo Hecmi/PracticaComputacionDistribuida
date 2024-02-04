@@ -14,6 +14,7 @@ import java.rmi.RemoteException;
 public interface VentaRemote extends Remote {
     String getVentas() throws RemoteException;
     Double getTotalVentas() throws RemoteException;
+    Double getTotalVentasPorCliente(String id_cliente) throws RemoteException;
     String getVentaPorId(String identificador) throws RemoteException;
     String buscarVenta(String texto) throws RemoteException;
     String insertarVenta(String venta) throws RemoteException;

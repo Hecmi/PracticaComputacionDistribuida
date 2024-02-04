@@ -90,4 +90,9 @@ public class VentaControlador {
         Double total = ventaDao.getTotalVentas();
         return total;
     }
+    
+     public Double getTotalVentasPorCliente(String id_cliente){
+        Double total = ventaDao.getTotalVentasPorCliente(id_cliente);
+        return total;
+    }
 }

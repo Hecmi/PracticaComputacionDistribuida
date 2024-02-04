@@ -100,5 +100,10 @@ public class VentaRmi extends UnicastRemoteObject implements VentaRemote {
         Double total_venta = ventaControlador.getTotalVentas();
         return total_venta;
     }
-    
+ 
+    @Override
+    public Double getTotalVentasPorCliente(String id_cliente) throws RemoteException {
+        Double total_venta = ventaControlador.getTotalVentasPorCliente(id_cliente);
+        return total_venta;
+    }
 }
